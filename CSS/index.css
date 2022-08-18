@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400&display=swap');
+
+*{
+    font-family: 'Roboto Mono', monospace;
+}
+body{
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+::-webkit-scrollbar {
+    width: 5px;
+  }
+::-webkit-scrollbar-track {
+    background: cyan;
+}
+::-webkit-scrollbar-thumb {
+    background: rgb(51, 138, 130);
+}
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(31, 88, 90);
+}
+#navbar{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    position:fixed;
+}
+#logo{
+    height: 100%;
+}
+#logo img{
+    height: 100%;
+}
+#sections li{
+    margin-right: 30px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 19px;
+    font-weight: 1000;
+}
+#sections li a{
+    text-decoration: none;
+    color: black;
+}
+#home{
+    background-color: cyan;
+    padding: 60px;
+    height: 530px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.avatar {
+    vertical-align: middle;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    padding: 5px;
+    border:5px solid ;
+    box-shadow: rgba(0, 0, 0, 0.55) 0px 0px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+.avatar img{
+    height: 100%;
+    border-radius: 50%;
+}
+.intro_btn{
+    width: 40%;
+    height: 50px;
+    background-color: yellow;
+    border: none;
+    border-radius: 10px;
+    color: black;
+    font-weight: 1000;
+    font-size: larger;
+    cursor: pointer;
+}
+.intro_btn a, .contact_btn a{
+    text-decoration: none;
+    color: black;
+}
+.heading{
+    width: 100%;
+    text-align: center;
+}
+
+#about{
+    padding: 60px;
+    height: 530px;
+}
+
+#about_container{
+    height: 450px;
+}
+
+#about_container div{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#skills{
+    background-color: cyan;
+    padding: 60px;
+    height: 530px;
+}
+
+#skill_container{
+    height: 450px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.left_skills div {
+    width: 250px;
+    height: 50px;
+    margin: 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    background-color: yellow;
+    position: relative;
+    animation: mymove 5s alternate-reverse infinite;
+}
+
+@keyframes mymove {
+    from {right: 0px;}
+    to {right: -150px;}
+}
+
+#div11 {animation-timing-function: linear;}
+#div12 {animation-timing-function: ease;}
+#div13 {animation-timing-function: ease-in;}
+#div14 {animation-timing-function: ease-out;}
+#div15 {animation-timing-function: ease-in-out;}
+
+.right_skills div {
+    width: 250px;
+    height: 50px;
+    margin: 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    position: relative;
+    background-color: yellow;
+    animation: mymove2 5s alternate-reverse infinite;
+}
+
+@keyframes mymove2 {
+    from {left: 0px;}
+    to {left: -150px;}
+}
+
+#div21 {animation-timing-function: linear;}
+#div22 {animation-timing-function: ease;}
+#div23 {animation-timing-function: ease-in;}
+#div24 {animation-timing-function: ease-out;}
+#div25 {animation-timing-function: ease-in-out;}
+
+#skill_container div div {
+    display: flex;
+    align-items: center;
+}
+#skill_container div div h2{
+    margin: auto;
+    font-weight: 100;
+}
+#projects{
+    padding: 60px;
+    height: 530px;
+}
+
+#projects_container{
+    border: 1px solid green;
+    height: 450px;
+}
+
+#contact_me{
+    background-color: cyan;
+    padding: 60px;
+    height: 530px;
+}
+
+#contact_container{
+    border: 1px solid green;
+    height: 450px;
+    display: grid;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+.contact_head{
+    margin: auto;
+    text-align: center;
+    width: 350px;
+}
+
+.contact_desc{
+    margin: auto;
+    text-align: center;
+    width: 550px;
+}
+
+.contact_btn{
+    margin: auto;
+    width: 40%;
+    height: 50px;
+    background-color: yellow;
+    border: none;
+    border-radius: 10px;
+    font-weight: 1000;
+    font-size: larger;
+    cursor: pointer;
+}
+#social_sites{
+    text-align: center;
+    margin: auto;
+}
+#social_sites>a>svg {
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+    margin-top: 20px;
+    stroke: #000000;
+    cursor: pointer;
+    fill: none;
+}
