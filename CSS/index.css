@@ -2,6 +2,7 @@
 
 *{
     font-family: 'Roboto Mono', monospace;
+    scroll-behavior: smooth;
 }
 body{
     margin: 0;
@@ -15,7 +16,7 @@ body{
     background: cyan;
 }
 ::-webkit-scrollbar-thumb {
-    background: rgb(51, 138, 130);
+    background: yellow;
 }
 ::-webkit-scrollbar-thumb:hover {
     background: rgb(31, 88, 90);
@@ -75,6 +76,7 @@ body{
     font-weight: 1000;
     font-size: larger;
     cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .intro_btn a, .contact_btn a{
     text-decoration: none;
@@ -83,15 +85,23 @@ body{
 .heading{
     width: 100%;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
 
 #about{
     padding: 60px;
-    height: 530px;
+    height: 600px;
 }
 
 #about_container{
-    height: 450px;
+    /* border: 5px solid cyan; */
+    height: 400px;
+    padding: 50px 50px 50px 50px;
+    border-radius: 15px;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 
 #about_container div{
@@ -121,6 +131,7 @@ body{
     font-weight: bold;
     background-color: yellow;
     position: relative;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     animation: mymove 5s alternate-reverse infinite;
 }
 
@@ -143,6 +154,7 @@ body{
     font-weight: bold;
     position: relative;
     background-color: yellow;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     animation: mymove2 5s alternate-reverse infinite;
 }
 
@@ -167,12 +179,29 @@ body{
 }
 #projects{
     padding: 60px;
-    height: 530px;
+    height: auto;
 }
 
 #projects_container{
-    border: 1px solid green;
-    height: 450px;
+    height: auto;
+    display: grid;
+    gap: 50px;
+    padding: 30px;
+}
+
+#project1 > div, #project2 > div, #project3 > div, #project4 > div {
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+#row1, #row2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+}
+
+#row1 > div > div > img, #row2 > div > div > img {
+    width: 100%;
 }
 
 #contact_me{
@@ -182,7 +211,6 @@ body{
 }
 
 #contact_container{
-    border: 1px solid green;
     height: 450px;
     display: grid;
     justify-content: center;
@@ -192,6 +220,7 @@ body{
     margin: auto;
     text-align: center;
     width: 350px;
+    font-size: smaller;
 }
 
 .contact_desc{
@@ -210,6 +239,7 @@ body{
     font-weight: 1000;
     font-size: larger;
     cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 #social_sites{
     text-align: center;
@@ -222,5 +252,15 @@ body{
     margin-top: 20px;
     stroke: #000000;
     cursor: pointer;
-    fill: none;
+    fill:yellow;
+}
+
+
+/* ICONS */
+.material-symbols-outlined {
+  font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
 }
