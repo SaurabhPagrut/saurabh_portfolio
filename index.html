@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="./CSS/projects.css">
     <link rel="stylesheet" href="./CSS/contact.css">
     <link rel="stylesheet" href="./CSS/navbar.css">
-    <link rel="shortcut icon" href="./Images/favicon.jpg" type="image/x-icon">
+    <link rel="shortcut icon" href="./Images/Personal/favicon.jpg" type="image/x-icon">
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
@@ -21,7 +21,7 @@
 <body>
     <div class="navbar">
         <div id="logo">
-            <a href="./index.html"><img src="./Images/Saurabh.svg" alt="logo"></a>
+            <a href="./index.html"><img src="./Images/Personal/Saurabh.svg" alt="SP"></a>
         </div>
         <div class="sections">
             <a class="ac" href="#home">HOME</a>
@@ -37,17 +37,17 @@
 
     <div id="home">
         <div class="avatar">
-            <img src="./Images/SaurabhPagrut.png" alt="">
+            <img src="./Images/Personal/SaurabhPagrut.png" alt="">
         </div>
         <div class="intro_resume">
             <div class="intro">
                 <h2>Hi, my name is</h2>
-                <h1>Saurabh Pagrut</h1>
+                <a href="./index.html"><h1>Saurabh Pagrut</h1></a>
                 <h1>I'm a Java Backend Developer</h1>
             </div>
             <div>
-                <a href="mailto:getsaurabhpagrut@gmail.com"><button class="intro_btn">CONNECT NOW</button></a>
-                <a href="./Images/Resume_SaurabhPagrut.pdf" download><button class="intro_btn">RESUME</button></a>
+                <a href="mailto:getsaurabhpagrut@gmail.com" target="_blank"><button class="intro_btn">CONNECT NOW</button></a>
+                <a href="./Images/Files/Resume_SaurabhPagrut.pdf" target="_blank" download><button class="intro_btn">RESUME</button></a>
             </div>
         </div>
     </div>
@@ -88,35 +88,51 @@
         </div>
         <div id="skill_container">
             <div id="skillrow1">
-                <div><div><img src="./Images/Languages/java.png" alt="JAVA"></div><h3>JAVA</h3></div>
-                <div><div><img src="./Images/Languages/sql-server.png" alt="SQL"></div><h3>SQL</h3></div>
-                <div><div><img src="./Images/Languages/DBMS.png" alt="DBMS"></div><h3>DBMS</h3></div>
-                <div><div><img src="./Images/Languages/DSA.png" alt="DSA"></div><h3>DSA</h3></div>
-                <div><div><img src="./Images/Languages/java-script.png" alt="JavaScript"></div><h3>JavaScript</h3></div>
+                <div>
+                    <div><img src="./Images/Languages/java.png" alt="JAVA"></div>
+                    <h3>JAVA</h3>
+                </div>
+                <div>
+                    <div><img src="./Images/Languages/sql-server.png" alt="SQL"></div>
+                    <h3>SQL</h3>
+                </div>
+                <div>
+                    <div><img src="./Images/Languages/DBMS.png" alt="DBMS"></div>
+                    <h3>DBMS</h3>
+                </div>
+                <div>
+                    <div><img src="./Images/Languages/DSA.png" alt="DSA"></div>
+                    <h3>DSA</h3>
+                </div>
+                <div>
+                    <div><img src="./Images/Languages/java-script.png" alt="JavaScript"></div>
+                    <h3>JavaScript</h3>
+                </div>
             </div>
             <div id="skillrow2">
-                <div><div><img src="./Images/Languages/github.png" alt="GitHub"></div><h3>Git</h3></div>
-                <div><div><img src="./Images/Languages/html.png" alt="HTML"></div><h3>HTML</h3></div>
-                <div><div><img src="./Images/Languages/css.png" alt="CSS"></div><h3>CSS</h3></div>
-                <div><div><img src="./Images/Languages/C.png" alt="C"></div><h3>C</h3></div>
-                <div><div><img src="./Images/Languages/c-logo.png" alt="C++"></div><h3>C++</h3></div>
+                <div>
+                    <div><img src="./Images/Languages/github.png" alt="GitHub"></div>
+                    <h3>Git</h3>
+                </div>
+                <div>
+                    <div><img src="./Images/Languages/html.png" alt="HTML"></div>
+                    <h3>HTML</h3>
+                </div>
+                <div>
+                    <div><img src="./Images/Languages/css.png" alt="CSS"></div>
+                    <h3>CSS</h3>
+                </div>
+                <div>
+                    <div><img src="./Images/Languages/C.png" alt="C"></div>
+                    <h3>C</h3>
+                </div>
+                <div>
+                    <div><img src="./Images/Languages/c-logo.png" alt="C++"></div>
+                    <h3>C++</h3>
+                </div>
             </div>
         </div>
     </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     <div id="projects">
         <div class="heading"><span class="material-symbols-outlined">
@@ -126,48 +142,106 @@
                 military_tech
             </span>
         </div>
+
         <div id="projects_container">
-            <div id="row1">
-                <div id="project1">
-                    <h1>SSENSE Clone</h1>
-                    <div>
+            <div id="project1">
+                <h1>Ssense Clone</h1>
+                <div class="p_container">
+                    <div class="p_description">
+                        <h2>Description :</h2>
+                        <h3>This is a clone of SSENSE e-commerce website, SSENSE is a global technology platform operating at the intersection of culture, community, and commerce.</h3>
+                        <div class="git&netlify">
+                            <a href="https://github.com/SaurabhPagrut/Ssense-Clone" target="_blank"><button class="git_net_btn">Github Link</button></a>
+                            <a href="https://ssense-clone-masai.netlify.app/" target="_blank"><button class="git_net_btn">Deployed Link</button></a>
+                        </div>
+                        <h2>Tech stacks :</h2>
+                        <div class="techstack">
+                            <div><img src="./Images/Languages/html.png" alt="HTML"></div>
+                            <div><img src="./Images/Languages/css.png" alt="CSS"></div>
+                            <div><img src="./Images/Languages/java-script.png" alt="JavaScript"></div>
+                        </div>
+                    </div>
+
+                    <div class="p_image">
                         <img src="./Images/Projects/SSENSE.com.jpg" alt="www.ssense.com">
                     </div>
                 </div>
-                <div id="project2">
-                    <h1>Expedia Clone</h1>
-                    <div>
-                        <img src="./Images/Projects/Expedia.co.in.jpg" alt="www.expedia.com">
+            </div>
+
+            <div id="project2">
+                <h1>Expedia Clone</h1>
+                <div class="p_container">
+                    <div class="p_description">
+                        <h2>Description :</h2>
+                        <h3>This is a clone of Expedia e-ticket booking website, Expedia is one of the world's leading full-service online travel brands helping travelers easily plan and book their whole trip.</h3>
+                        <div class="git&netlify">
+                            <a href="https://github.com/SaurabhPagrut/Expedia_clone" target="_blank"><button class="git_net_btn">Github Link</button></a>
+                            <a href="https://warm-gecko-dde4da.netlify.app/index.html" target="_blank"><button class="git_net_btn">Deployed Link</button></a>
+                        </div>
+                        <h2>Tech stacks :</h2>
+                        <div class="techstack">
+                            <div><img src="./Images/Languages/html.png" alt="HTML"></div>
+                            <div><img src="./Images/Languages/css.png" alt="CSS"></div>
+                            <div><img src="./Images/Languages/java-script.png" alt="JavaScript"></div>
+                        </div>
+                    </div>
+
+                    <div class="p_image">
+                        <img src="./Images/Projects/Expedia.co.in.jpg" alt="www.ssense.com">
                     </div>
                 </div>
             </div>
-            <div id="row2">
-                <div id="project3">
-                    <h1>YouTube Clone</h1>
-                    <div>
-                        <img src="./Images/Projects/YouTube.com.jpg" alt="www.youtube.com">
+
+            <div id="project3">
+                <h1>YouTube Clone</h1>
+                <div class="p_container">
+                    <div class="p_description">
+                        <h2>Description :</h2>
+                        <h3>This is a clone of YouTube video streaming website, YouTube is an online video sharing and social media platform. It is a good income source for many video creators.</h3>
+                        <div class="git&netlify">
+                            <a href="https://github.com/masai-course/Saurabh_fw18_0521/tree/master/unit-3/sprint-2/day-1/assignments/YouTube%20II" target="_blank"><button class="git_net_btn">Github Link</button></a>
+                            <a href="https://youtube-clone-by-sp.netlify.app/" target="_blank"><button class="git_net_btn">Deployed Link</button></a>
+                        </div>
+                        <h2>Tech stacks :</h2>
+                        <div class="techstack">
+                            <div><img src="./Images/Languages/html.png" alt="HTML"></div>
+                            <div><img src="./Images/Languages/css.png" alt="CSS"></div>
+                            <div><img src="./Images/Languages/java-script.png" alt="JavaScript"></div>
+                        </div>
                     </div>
-                </div>
-                <div id="project4">
-                    <h1>Search Pictures</h1>
-                    <div>
-                        <img src="./Images/Projects/Unsplash.com.jpg" alt="www.Unsplash.com">
+
+                    <div class="p_image">
+                        <img src="./Images/Projects/YouTube.com.jpg" alt="www.ssense.com">
                     </div>
                 </div>
             </div>
+
+            <div id="project4">
+                <h1>Search Pictures</h1>
+                <div class="p_container">
+                    <div class="p_description">
+                        <h2>Description :</h2>
+                        <h3>This website is developed by me for searching pictures, This image search application is developed using the Unsplash API, here you just have to type a keyword related to your need.</h3>
+                        <div class="git&netlify">
+                            <a href="https://github.com/masai-course/Saurabh_fw18_0521/tree/master/unit-3/sprint-3/optional/Images%20WebPack%20PSC" target="_blank"><button class="git_net_btn">Github Link</button></a>
+                            <a href="https://image-search-by-sp.netlify.app/" target="_blank"><button class="git_net_btn">Deployed Link</button></a>
+                        </div>
+                        <h2>Tech stacks :</h2>
+                        <div class="techstack">
+                            <div><img src="./Images/Languages/html.png" alt="HTML"></div>
+                            <div><img src="./Images/Languages/css.png" alt="CSS"></div>
+                            <div><img src="./Images/Languages/java-script.png" alt="JavaScript"></div>
+                        </div>
+                    </div>
+
+                    <div class="p_image">
+                        <img src="./Images/Projects/Unsplash.com.jpg" alt="www.ssense.com">
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
-
-
-
-
-
-
-
-
-
-
-
 
     <div id="contact_me">
         <div class="heading"><span class="material-symbols-outlined">
@@ -186,7 +260,7 @@
                     through social sites listed below.</h3>
             </div>
             <div class="contact_btn_div">
-                <a href="mailto:getsaurabhpagrut@gmail.com"><button class="contact_btn">CONNECT NOW</button></a>
+                <a href="mailto:getsaurabhpagrut@gmail.com" target="_blank"><button class="contact_btn">CONNECT NOW</button></a>
             </div>
             <div id="social_sites">
                 <a target="_blank" href="https://github.com/SaurabhPagrut"> <svg xmlns="http://www.w3.org/2000/svg"
@@ -216,18 +290,18 @@
 
 </html>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script >
+<script>
 
-$(document).ready(function() {
-  $(window).scroll(function() {
-    let navdiv = $(document).scrollTop();
-    if ((navdiv>605 && navdiv<1325) || (navdiv>1960 && navdiv<3100)) {
-      $(".navbar").addClass("navbarchange");
-      $(".ac").addClass("achange");
-    } else {
-      $(".navbar").removeClass("navbarchange");
-      $(".ac").removeClass("achange");
-    }
-  });
-});
+    $(document).ready(function () {
+        $(window).scroll(function () {
+            let navdiv = $(document).scrollTop();
+            if ((navdiv > 605 && navdiv < 1325) || (navdiv > 1980 && navdiv < 4670)) {
+                $(".navbar").addClass("navbarchange");
+                $(".ac").addClass("achange");
+            } else {
+                $(".navbar").removeClass("navbarchange");
+                $(".ac").removeClass("achange");
+            }
+        });
+    });
 </script>
