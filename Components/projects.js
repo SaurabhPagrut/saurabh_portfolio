@@ -3,7 +3,7 @@ let projectsjs = () => {
     <div class="heading"><span class="material-symbols-outlined">
             military_tech
         </span>
-        <h1>POJECTS</h1><span class="material-symbols-outlined">
+        <h1>PROJECTS</h1><span class="material-symbols-outlined">
             military_tech
         </span>
     </div>
