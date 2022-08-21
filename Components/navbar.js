@@ -1,18 +1,16 @@
-let navb = () => {
+var navbarjs = () => {
     return `
-    <div id="logo">
-        <a href="#home"><img src="./Images/Saurabh.svg" alt="logo"></a>
-    </div>
-    <div id="sections">
-        <li>
-            <ul><a href="#home">HOME</a></ul>
-            <ul><a href="#about">ABOUT</a></ul>
-            <ul><a href="#skills">SKILLS</a></ul>
-            <ul><a href="#projects">PROJECTS</a></ul>
-            <ul><a href="#contact_me">CONTACT</a></ul>
-        </li>
-    </div>
+        <div id="logo">
+        <a href="./index.html"><img src="./Images/Personal/Saurabh.svg" alt="SP"></a>
+        </div>
+        <div class="sections">
+            <a class="ac" href="#home">HOME</a>
+            <a class="ac" href="#about">ABOUT</a>
+            <a class="ac" href="#skills">SKILLS</a>
+            <a class="ac" href="#projects">PROJECTS</a>
+            <a class="ac" href="#contact_me">CONTACT</a>
+        </div>
     `;
 };
 
-export { navb };
+export { navbarjs };

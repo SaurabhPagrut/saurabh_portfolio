@@ -9,7 +9,6 @@
 
 #skill_container {
     height: 70%;
-    border: 1px solid;
     width: 75%;
     margin: auto;
     margin-top: 50px;
@@ -18,9 +17,8 @@
     gap: 5%;
 }
 
-#skillrow1{
+#skillrow1 {
     width: 75%;
-    border: 1px solid;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -29,15 +27,14 @@
 }
 
 #skill_container>div>div {
-    border: 1px solid;
     width: 70%;
     margin: auto;
 }
 
-#skillrow1 h3{
+#skillrow1 h3 {
     text-align: center;
 }
 
-#skillrow1 div div img{
+#skillrow1 div div img {
     width: 100%;
 }

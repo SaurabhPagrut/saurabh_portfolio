@@ -1,4 +1,3 @@
-
 #contact_me {
     background-color: cyan;
     height: 600px;
@@ -24,10 +23,12 @@
     text-align: center;
     width: 40%;
 }
-.contact_btn_div{
+
+.contact_btn_div {
     margin: auto;
     width: 17%;
 }
+
 .contact_btn {
     margin: auto;
     width: 100%;
@@ -55,7 +56,8 @@
     cursor: pointer;
     fill: yellow;
 }
-#social_sites>a>svg:hover{
+
+#social_sites>a>svg:hover {
     stroke: yellow;
     fill: none;
 }

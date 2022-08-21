@@ -30,7 +30,7 @@
     border-radius: 50%;
 }
 
-.intro_resume{
+.intro_resume {
     width: 55%;
 }
 
@@ -39,9 +39,10 @@
     color: black;
 }
 
-.intro > h1 {
-    color:black;
+.intro>h1 {
+    color: black;
 }
+
 .intro_btn {
     width: 40%;
     height: 50px;
@@ -55,7 +56,7 @@
 }
 
 .intro_btn:hover,
-.contact_btn:hover{
+.contact_btn:hover {
     background-color: cyan;
     color: yellow;
 }
@@ -74,4 +75,3 @@
     align-items: center;
     gap: 20px;
 }
-

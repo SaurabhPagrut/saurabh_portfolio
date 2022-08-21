@@ -15,7 +15,7 @@
     padding: 100px 0px;
 }
 
-#projects_container > div {
+#projects_container>div {
     margin: 0% 5%;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
@@ -33,7 +33,7 @@
 
 .p_description {
     width: 45%;
-    color:blueviolet;
+    color: blueviolet;
 }
 
 .p_description h2 {
@@ -51,7 +51,7 @@
 }
 
 .git_net_btn {
-    width: 48%;
+    width: 45%;
     height: 50px;
     background-color: blueviolet;
     color: white;
