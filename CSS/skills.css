@@ -3,35 +3,41 @@
 
 #skills {
     background-color: cyan;
-    padding: 60px;
-    height: 530px;
+    height: 650px;
+    width: 100%;
 }
 
 #skill_container {
-    height: 450px;
+    height: 70%;
+    border: 1px solid;
+    width: 75%;
+    margin: auto;
+    margin-top: 50px;
     justify-content: space-around;
     display: grid;
+    gap: 5%;
+}
+
+#skillrow1{
+    width: 75%;
+    border: 1px solid;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(1, 100px);
     gap: 50px;
 }
 
-#skillrow1, #skillrow2{
-    width: 75%;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-    gap: 70px;
-    align-items: center;
-}
-
-#skill_container div div {
-    width: 60%;
+#skill_container>div>div {
+    border: 1px solid;
+    width: 70%;
     margin: auto;
 }
 
-#skill_container div h3{
+#skillrow1 h3{
     text-align: center;
 }
 
-#skillrow1 div div img, #skillrow2 div div img{
+#skillrow1 div div img{
     width: 100%;
 }

@@ -2,20 +2,21 @@
 
 
 #projects {
-    padding: 60px;
+    width: 100%;
     height: auto;
-    width: 90%;
 }
 
 #projects_container {
     height: auto;
     display: grid;
-    gap: 50px;
-    padding: 30px;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, auto);
+    gap: 100px;
+    padding: 100px 0px;
 }
 
 #projects_container > div {
-    padding-top: 30px;
+    margin: 0% 5%;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 
@@ -50,7 +51,7 @@
 }
 
 .git_net_btn {
-    width: 40%;
+    width: 48%;
     height: 50px;
     background-color: blueviolet;
     color: white;

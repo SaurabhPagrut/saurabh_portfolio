@@ -31,7 +31,6 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    overflow: hidden;
 }
 
 .ac {
@@ -60,8 +59,3 @@
     background-color: blueviolet;
     color: white;
 }
-
-.sections .icon {
-  display: none;
-}
-

@@ -1,17 +1,22 @@
 /* HOME CSS */
 
-
 #home {
     background-color: cyan;
-    padding: 60px;
-    height: 530px;
+    width: 100%;
+    height: 700px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+}
+
+#home_container {
+    width: 75%;
+    display: flex;
+    justify-content: center;
     align-items: center;
+    gap: 100px;
 }
 
 .avatar {
-    vertical-align: middle;
     width: 250px;
     height: 250px;
     border-radius: 50%;
@@ -23,6 +28,10 @@
 .avatar img {
     height: 100%;
     border-radius: 50%;
+}
+
+.intro_resume{
+    width: 55%;
 }
 
 .intro a {

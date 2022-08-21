@@ -2,20 +2,24 @@
 
 
 #about {
-    padding: 60px;
-    height: 600px;
+    height: 700px;
+    width: 100%;
 }
 
 #about_container {
-    height: 400px;
-    padding: 50px 50px 50px 50px;
+    height: 450px;
+    width:80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding: 50px;
     border-radius: 15px;
     color: blueviolet;
     box-shadow: rgba(255, 231, 239, 0.164) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 
 #about_container div {
-    padding: 10px;
     display: flex;
     align-items: center;
     gap: 20px;
