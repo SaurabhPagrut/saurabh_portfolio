@@ -15,7 +15,7 @@ let homejs = () => {
                 <div id="buttons">
                     <a href="mailto:getsaurabhpagrut@gmail.com" target="_blank"><button class="intro_btn">CONNECT
                             NOW</button></a>
-                    <a href="./Images/Files/Resume_SaurabhPagrut.pdf" target="_blank" download><button
+                    <a href="./Images/Files/Saurabh_Pagrut_Resume.pdf" target="_blank" download><button
                             class="intro_btn">RESUME</button></a>
                 </div>
             </div>

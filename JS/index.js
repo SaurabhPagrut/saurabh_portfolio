@@ -26,7 +26,7 @@ contact.innerHTML = contactjs();
 $(document).ready(function () {
     $(window).scroll(function () {
         let navdiv = $(document).scrollTop();
-        if ((navdiv > 660 && navdiv < 1360) || (navdiv > 2010 && navdiv < 4605)) {
+        if ((navdiv > 660 && navdiv < 1410) || (navdiv > 2110 && navdiv < 4750)) {
             $(".navbar").addClass("navbarchange");
             $(".ac").addClass("achange");
         } else {
