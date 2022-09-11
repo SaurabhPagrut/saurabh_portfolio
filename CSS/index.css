@@ -593,5 +593,10 @@ body {
 }
 
 ::-webkit-scrollbar {
-    display: none;
+    width: 0.7vh;
+    background-color: aqua;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: yellow;
 }
