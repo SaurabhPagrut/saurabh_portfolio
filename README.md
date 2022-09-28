@@ -8,6 +8,8 @@
 
 ## Overview
 
+**This is a personal portfolio website created using HTML, CSS & JavaScript to know more about me and showcase my work done till now as a software developer.**
+
 ### Live Demo : [Go Live](https://saurabh-pagrut-portfolio.netlify.app/)  
 
 ### Screenshots :  
